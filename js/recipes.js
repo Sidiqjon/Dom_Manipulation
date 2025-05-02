@@ -13,7 +13,7 @@ function renderRecipeData(data){
             <div class="card__image">
                 <img src="${recipe.image}" alt="">
             </div>
-            <h3>Name:${recipe.name}</h3>
+            <h3>${recipe.name}</h3>
             <p>Cuisine:${recipe.cuisine}</p>
         `
         fragment.appendChild(card)
